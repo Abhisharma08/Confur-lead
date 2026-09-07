@@ -36,7 +36,7 @@ const defaultValues: FormValues = {
   company_name: "",
   budget: "",
   custom_requirement: "",
-  lead_source: "ALLUMINIUM FURNACE LP",
+  lead_source: "LEAD SMELTING LP",
 }
 
 const BUDGET_OPTIONS = [
@@ -144,7 +144,7 @@ export default function LeadForm({
         name: values.name.trim(),
         email: values.email.trim(),
         phone: values.phone.trim(),
-        lead_source: "ALLUMINIUM FURNACE LP (Step 1 Completed)",
+        lead_source: "LEAD SMELTING LP (Step 1 Completed)",
       })
 
       if (!result.success) {
@@ -177,7 +177,7 @@ export default function LeadForm({
         company_name: values.company_name.trim(),
         budget: values.budget,
         custom_requirement: values.custom_requirement.trim(),
-        lead_source: "ALLUMINIUM FURNACE LP",
+        lead_source: "LEAD SMELTING LP",
       })
 
       if (!result.success) {
@@ -437,6 +437,7 @@ export default function LeadForm({
               value={values.custom_requirement}
               onChange={handleChange}
               placeholder="e.g. 5 Ton Bogie Hearth, operating temp 600°C, forced air circulation..."
+              placeholder="e.g. 3 Ton Rotary Lead Furnace with APCS, processing battery scrap..."
               className="flex w-full rounded-xl border border-input bg-white p-3 text-sm text-black placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary resize-none"
             />
           </div>

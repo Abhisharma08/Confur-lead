@@ -23,11 +23,21 @@ const robotoSlab = Roboto_Slab({
 export const metadata: Metadata = {
   title:
     "Continental Furnaces | Leading Industrial Furnace Manufacturer in India",
+    "Continental Furnaces | Lead Smelting & Recycling Plant Manufacturer",
 
   description:
     "Continental Furnaces manufactures energy-efficient industrial furnaces, heat treatment systems, melting systems, galvanizing plants, and thermal processing solutions for industries across India and global markets.",
+    "Continental Furnaces manufactures rotary lead smelting & recycling furnaces (500 kg to 10 tonnes per batch) with integrated multi-stage air pollution control systems (APCS) for scrap batteries, plates, paste, and slag.",
 
   keywords: [
+    "Lead Smelting Plant",
+    "Lead Recycling Furnace",
+    "Rotary Melting Furnace",
+    "Secondary Lead Smelting",
+    "Battery Recycling Plant",
+    "Air Pollution Control System",
+    "Rotary Lead Smelting",
+    "Continental Furnaces",
     "Industrial Furnace Manufacturer India",
     "Aluminium Furnace",
     "Heat Treatment Furnace",
