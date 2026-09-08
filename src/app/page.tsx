@@ -29,7 +29,7 @@ import {
 import LeadForm from "@/components/LeadForm"
 
 const LOGO_URL =
-  "https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779361354/cropped-Continental-Furnaces-Logo_q8ict4.jpg"
+  "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1788845125/Untitled_design_5_xidc0h.svg"
 const HERO_BG_URL =
   "https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779688587/WhatsApp_Image_2026-05-24_at_2.01.46_PM_e3rdsn.jpg"
 const SECTION_BG_URL =

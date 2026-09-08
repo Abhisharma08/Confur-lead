@@ -4,7 +4,7 @@ import Script from "next/script"
 import { Button } from "@/components/ui/button"
 import { CheckCircle2, ArrowLeft } from "lucide-react"
 
-const LOGO_URL = "https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779361354/cropped-Continental-Furnaces-Logo_q8ict4.jpg";
+const LOGO_URL = "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1788845125/Untitled_design_5_xidc0h.svg";
 
 export default function ThankYouPage() {
   return (
