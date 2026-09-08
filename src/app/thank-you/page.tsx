@@ -55,16 +55,14 @@ gtag('event', 'conversion', {
       {/* Simple Header */}
       <nav className="bg-white border-b h-20 flex items-center w-full">
         <div className="container mx-auto px-4 max-w-7xl w-full">
-          <Link href="/">
-            <Image 
-              src={LOGO_URL} 
-              alt="Continental Furnaces Logo" 
-              width={180} 
-              height={45} 
-              className="h-10 w-auto object-contain"
-              priority
-            />
-          </Link>
+          <Image 
+            src={LOGO_URL} 
+            alt="Continental Furnaces Logo" 
+            width={180} 
+            height={45} 
+            className="h-10 w-auto object-contain"
+            priority
+          />
         </div>
       </nav>
 

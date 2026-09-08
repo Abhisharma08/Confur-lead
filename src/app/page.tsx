@@ -73,16 +73,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div className="container mx-auto flex h-16 md:h-24 max-w-7xl items-center justify-between px-4">
             {/* Logo */}
             <div className="flex items-center gap-3 md:gap-5">
-              <Link href="/" className="flex items-center">
-                <Image
-                  src={LOGO_URL}
-                  alt="Continental Furnaces"
-                  width={180}
-                  height={55}
-                  className="h-12 md:h-20 w-auto object-contain"
-                  priority
-                />
-              </Link>
+              <Image
+                src={LOGO_URL}
+                alt="Continental Furnaces"
+                width={180}
+                height={55}
+                className="h-12 md:h-20 w-auto object-contain"
+                priority
+              />
             </div>
 
             {/* Right CTA */}
